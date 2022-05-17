@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Etch-a-sketch</title>
 </head>
+
 <body>
     <main id="container">
         <div id="panel-1">
             <input type="color" name="color-piker" id="color-piker">
-            <button id="color-btn"></button>
-            <button id="multicolor-btn"></button>
-            <input type="range"  id="size-slider">
+            <button id="color-btn">Color</button>
+            <button id="multicolor-btn">Multi-Color</button>
+            <input type="range" id="size-slider" value="16" min="1" max="64">
         </div>
         <div id="panel-2">
             <div id="grid-container">
-                
+
             </div>
         </div>
         <div id="panel-3">
-            <button id="erase-btn"></button>
-            <button id="clear-btn"></button>
+            <button id="erase-btn">Erase</button>
+            <button id="clear-btn">Clear</button>
         </div>
     </main>
 </body>
+
 </html>
